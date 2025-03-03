@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xops"
+version = "0.1.0"
+description = "Systematic execution operations stack: portfolio-to-orders, FIX 4.4 order lifecycle, live monitoring, reconciliation, corporate actions"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "duckdb", "matplotlib", "fpdf2"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["xops", "xops.fix"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

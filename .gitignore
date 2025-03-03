@@ -1,0 +1,9 @@
+data/raw/
+data/derived/xops.duckdb
+data/derived/*.wal
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+results/*.log
+results/parts/
