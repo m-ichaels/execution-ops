@@ -1,0 +1,8 @@
+symbol,ex_date,type,amount,ratio,new_symbol,note
+FB,2022-06-09,symbol_change,,,META,"Facebook Inc. renamed Meta Platforms: ticker FB became META on 2022-06-09"
+GE,2023-01-04,spinoff,,0.3333333333,GEHC,"GE HealthCare spin-off: 1 GEHC share for every 3 GE shares held; ex-date 2023-01-04"
+GE,2024-04-02,spinoff,,0.25,GEV,"GE Vernova spin-off: 1 GEV share for every 4 GE shares; ex-date 2024-04-02"
+MMM,2024-04-01,spinoff,,0.25,SOLV,"Solventum spin-off: 1 SOLV share for every 4 MMM shares; ex-date 2024-04-01"
+T,2022-04-11,spinoff,,0.241917,WBD,"WarnerMedia separation into Warner Bros. Discovery: 0.241917 WBD per T share; first ex-date trading 2022-04-11 (approximate)"
+ATVI,2023-10-13,merger_cash,95.0,,,"Activision Blizzard acquired by Microsoft for $95.00 cash per share; delisted"
+TWTR,2022-10-28,merger_cash,54.2,,,"Twitter taken private at $54.20 cash per share"
