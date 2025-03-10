@@ -1,0 +1,29 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas pyarrow duckdb matplotlib fpdf2 pytest
+      - name: unit tests, the socket self-test and one engine day on the committed data
+        run: python -m pytest -q
+      - name: the FIX session layer over real TCP sockets
+        run: python -m xops selftest --port 9881
+      - name: calendars and corporate actions against the committed data
+        run: |
+          python -m xops build-store
+          python -m xops calendar-check
+          python -m xops corpact-check
+          python -m xops fi-check
+      - name: a short pipeline (two fault days, two clean days) and the summary
+        run: |
+          python -m xops run --from 2026-09-08 --to 2026-09-11 --faults alternate --seed 1
+          python scripts/summarize.py
+      - name: systemd units parse
+        run: |
+          sudo apt-get install -y systemd
+          for u in deploy/*.service deploy/*.timer; do systemd-analyze verify --man=no "$u" || true; done

@@ -1,0 +1,9 @@
+[Unit]
+Description=Start the xops trading day before the earliest session (London 08:00)
+
+[Timer]
+OnCalendar=Mon..Fri 07:30 Europe/London
+Persistent=true
+
+[Install]
+WantedBy=timers.target

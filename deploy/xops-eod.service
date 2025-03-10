@@ -1,0 +1,11 @@
+[Unit]
+Description=xops end-of-day: reconciliation against the drop copy and the prime broker file, exception report
+After=xops-day.service
+
+[Service]
+Type=oneshot
+User=xops
+WorkingDirectory=/opt/xops
+ExecStart=/opt/xops/.venv/bin/python -m xops recon --date today
+StandardOutput=append:/var/log/xops/eod.log
+StandardError=append:/var/log/xops/eod.log

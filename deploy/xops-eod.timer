@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the xops end-of-day reconciliation after the New York close (16:00 ET = 21:00 London in summer)
+
+[Timer]
+OnCalendar=Mon..Fri 22:15 Europe/London
+Persistent=true
+
+[Install]
+WantedBy=timers.target

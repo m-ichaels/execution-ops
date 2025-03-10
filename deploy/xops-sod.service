@@ -1,0 +1,12 @@
+[Unit]
+Description=xops start-of-day checks: calendars, securities master, prices, corporate actions, limits, futures rolls, FIX sequence numbers
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=xops
+WorkingDirectory=/opt/xops
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/xops/.venv/bin/python -m xops sod --date today
+StandardOutput=append:/var/log/xops/sod.log
+StandardError=append:/var/log/xops/sod.log

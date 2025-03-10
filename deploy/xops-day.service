@@ -1,0 +1,14 @@
+[Unit]
+Description=xops trading day: portfolio-to-orders, FIX sessions, live monitor, end-of-day reconciliation and checks
+After=network-online.target xops-sod.service
+
+[Service]
+Type=simple
+User=xops
+WorkingDirectory=/opt/xops
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/xops/.venv/bin/python -m xops run --from today --to today --faults none
+Restart=on-failure
+RestartSec=30
+StandardOutput=append:/var/log/xops/day.log
+StandardError=append:/var/log/xops/day.log
