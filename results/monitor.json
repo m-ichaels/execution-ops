@@ -1,0 +1,109 @@
+{
+ "by_type": {
+  "dup_fill": {
+   "injected": 52,
+   "detected": 52,
+   "median_ttd_s": 0.5520000457763672,
+   "p90_ttd_s": 0.5520000457763672
+  },
+  "bad_price": {
+   "injected": 50,
+   "detected": 50,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  },
+  "stale_leaves": {
+   "injected": 26,
+   "detected": 26,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  },
+  "seq_gap": {
+   "injected": 28,
+   "detected": 27,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  },
+  "dropcopy_missing": {
+   "injected": 52,
+   "detected": 0,
+   "median_ttd_s": null,
+   "p90_ttd_s": null
+  },
+  "over_participation": {
+   "injected": 19,
+   "detected": 19,
+   "median_ttd_s": 240.0,
+   "p90_ttd_s": 255.0
+  },
+  "reject_storm": {
+   "injected": 28,
+   "detected": 27,
+   "median_ttd_s": 14.997999906539917,
+   "p90_ttd_s": 14.997999906539917
+  },
+  "overfill": {
+   "injected": 26,
+   "detected": 26,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  },
+  "latency_spike": {
+   "injected": 28,
+   "detected": 27,
+   "median_ttd_s": 15.0,
+   "p90_ttd_s": 123.00000000000026
+  },
+  "drop_ack": {
+   "injected": 50,
+   "detected": 50,
+   "median_ttd_s": 14.997999906539917,
+   "p90_ttd_s": 14.997999906539917
+  },
+  "stuck": {
+   "injected": 47,
+   "detected": 42,
+   "median_ttd_s": 1470.0,
+   "p90_ttd_s": 2100.0
+  },
+  "wrong_side": {
+   "injected": 27,
+   "detected": 27,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  },
+  "late_fill_after_cancel": {
+   "injected": 27,
+   "detected": 27,
+   "median_ttd_s": 2.002000093460083,
+   "p90_ttd_s": 2.002000093460083
+  },
+  "silent_session": {
+   "injected": 28,
+   "detected": 28,
+   "median_ttd_s": 60.0,
+   "p90_ttd_s": 60.0
+  },
+  "symbol_mismatch": {
+   "injected": 26,
+   "detected": 26,
+   "median_ttd_s": 0.05200004577636719,
+   "p90_ttd_s": 0.05200004577636719
+  }
+ },
+ "injected": 514,
+ "detected": 454,
+ "detection_rate": 0.8832684824902723,
+ "monitor_injected": 462,
+ "monitor_detected": 454,
+ "monitor_detection_rate": 0.9826839826839827,
+ "median_ttd_s": 0.5520000457763672,
+ "p90_ttd_s": 255.0,
+ "false_alerts_per_clean_day": 0.9285714285714286,
+ "false_alerts_by_rule": {
+  "SLIPPAGE": 26
+ },
+ "fault_days": 28,
+ "clean_days": 28,
+ "clean_incidents_per_day": 0.9285714285714286
+}

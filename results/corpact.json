@@ -1,0 +1,153 @@
+{
+ "events_in_feed": {
+  "dividend": 10675,
+  "split": 129,
+  "spinoff": 4,
+  "merger_cash": 2,
+  "symbol_change": 1
+ },
+ "dividends_checked": 10675,
+ "as_reported": {
+  "within_tol": 9699,
+  "median_rel_err": 1.3861166044598763e-07,
+  "max_rel_err": 0.2658338154696067,
+  "by_exchange": {
+   "XLON": {
+    "n": 973,
+    "within_tol": 0,
+    "median": 0.014322768068448457,
+    "p99": 0.06753543936519518
+   },
+   "XNYS": {
+    "n": 9333,
+    "within_tol": 9333,
+    "median": 1.2378852531906328e-07,
+    "p99": 6.374894893398911e-07
+   },
+   "XPAR": {
+    "n": 192,
+    "within_tol": 190,
+    "median": 1.056529115325477e-07,
+    "p99": 5.63459868799871e-05
+   },
+   "XETR": {
+    "n": 141,
+    "within_tol": 140,
+    "median": 6.358987096695384e-08,
+    "p99": 0.00012887481390396111
+   },
+   "XAMS": {
+    "n": 36,
+    "within_tol": 36,
+    "median": 1.143203654366241e-07,
+    "p99": 3.570002864425671e-07
+   }
+  },
+  "unexplained_adjustments": 0,
+  "worst": [
+   [
+    0.2658338154696067,
+    "TSCO.L",
+    "2021-02-15",
+    "dividend",
+    0.7883208322864896,
+    0.9978831669473831
+   ],
+   [
+    0.1164427595433965,
+    "REL.L",
+    "2008-01-07",
+    "dividend",
+    0.8947589158637996,
+    0.9989471131530382
+   ],
+   [
+    0.08254913056539007,
+    "VOD.L",
+    "2009-06-03",
+    "dividend",
+    0.923034692625046,
+    0.9992304039829356
+   ],
+   [
+    0.07650140403730758,
+    "VOD.L",
+    "2010-06-02",
+    "dividend",
+    0.9282690051145888,
+    0.9992828873301695
+   ],
+   [
+    0.07606485682990852,
+    "RIO.L",
+    "2019-03-07",
+    "dividend",
+    0.9286489504242965,
+    0.9992864998835654
+   ],
+   [
+    0.0729620760679991,
+    "VOD.L",
+    "2011-11-16",
+    "dividend",
+    0.9313594225280539,
+    0.9993133395611935
+   ],
+   [
+    0.07160038316827015,
+    "NG.L",
+    "2017-05-22",
+    "dividend",
+    0.9325542677821202,
+    0.9993255106805257
+   ],
+   [
+    0.07022397105874156,
+    "RIO.L",
+    "2021-08-12",
+    "dividend",
+    0.9337649598426487,
+    0.9993376433583059
+   ]
+  ]
+ },
+ "lse_dividends_in_pounds": {
+  "within_tol": 10672,
+  "median_rel_err": 1.2006424199899607e-07,
+  "max_rel_err": 0.0013769533305263999,
+  "by_exchange": {
+   "XLON": {
+    "n": 973,
+    "within_tol": 973,
+    "median": 1.0066506209700088e-07,
+    "p99": 3.443873614455941e-05
+   },
+   "XNYS": {
+    "n": 9333,
+    "within_tol": 9333,
+    "median": 1.2378852531906328e-07,
+    "p99": 6.374894893398911e-07
+   },
+   "XPAR": {
+    "n": 192,
+    "within_tol": 190,
+    "median": 1.056529115325477e-07,
+    "p99": 5.63459868799871e-05
+   },
+   "XETR": {
+    "n": 141,
+    "within_tol": 140,
+    "median": 6.358987096695384e-08,
+    "p99": 0.00012887481390396111
+   },
+   "XAMS": {
+    "n": 36,
+    "within_tol": 36,
+    "median": 1.143203654366241e-07,
+    "p99": 3.570002864425671e-07
+   }
+  },
+  "unexplained_adjustments": 0
+ },
+ "note": "Yahoo's close series is already split-adjusted, so dividends are the only events its adjusted close can check; LSE prices are in pence while Yahoo adjusts with the dividend in pounds, a factor-100 vendor inconsistency that the check finds"
+}

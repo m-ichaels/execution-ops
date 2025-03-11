@@ -1,0 +1,7337 @@
+{
+ "from": "2026-07-01",
+ "to": "2026-09-16",
+ "days": [
+  {
+   "date": "2026-07-01",
+   "fault_day": false,
+   "orders": 135,
+   "fills": 50282,
+   "dropcopy_fills": 50282,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 11,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1139310377,
+    "net": 978050765,
+    "crossed": 15257347,
+    "dropped_min_notional": 7,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 5,
+    "n_symbols": 144
+   },
+   "ca_applied": 5,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2427,
+     "received": 18510,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2430,
+     "received": 22462,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2412,
+     "received": 14295,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 48,
+     "filled": 44,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 16843
+    },
+    "BRK2": {
+     "orders": 53,
+     "filled": 50,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 20793
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 31,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12646
+    }
+   }
+  },
+  {
+   "date": "2026-07-02",
+   "fault_day": true,
+   "orders": 99,
+   "fills": 31903,
+   "dropcopy_fills": 31908,
+   "alerts": 116,
+   "incidents": 27,
+   "faults_injected": 18,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 22,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 731823615,
+    "net": 630552726,
+    "crossed": 2780268,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 3,
+    "n_symbols": 110
+   },
+   "ca_applied": 3,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2416,
+     "received": 15513,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2411,
+     "received": 11530,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2398,
+     "received": 10017,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 13
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 38,
+     "filled": 35,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13777
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 27,
+     "partial_dfd": 2,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 9883
+    },
+    "BRK3": {
+     "orders": 27,
+     "filled": 22,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 8246
+    }
+   }
+  },
+  {
+   "date": "2026-07-03",
+   "fault_day": false,
+   "orders": 17,
+   "fills": 8290,
+   "dropcopy_fills": 8290,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 12,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 832287267,
+    "net": 701663611,
+    "crossed": 6362358,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 4,
+    "n_symbols": 111
+   },
+   "ca_applied": 0,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 1572,
+     "received": 3072,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 1574,
+     "received": 3867,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 1575,
+     "received": 4576,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 4,
+     "filled": 2,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 2000
+    },
+    "BRK2": {
+     "orders": 6,
+     "filled": 4,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 2790
+    },
+    "BRK3": {
+     "orders": 7,
+     "filled": 4,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 3500
+    }
+   }
+  },
+  {
+   "date": "2026-07-06",
+   "fault_day": true,
+   "orders": 115,
+   "fills": 25045,
+   "dropcopy_fills": 25050,
+   "alerts": 190,
+   "incidents": 41,
+   "faults_injected": 18,
+   "faults_detected": 14,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1429458892,
+    "net": 1195210565,
+    "crossed": 64554601,
+    "dropped_min_notional": 14,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 4,
+    "n_symbols": 131
+   },
+   "ca_applied": 5,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2423,
+     "received": 10486,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 33
+    },
+    "BRK2": {
+     "sent": 2286,
+     "received": 5540,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2459,
+     "received": 14457,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 42,
+     "filled": 36,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8777
+    },
+    "BRK2": {
+     "orders": 24,
+     "filled": 14,
+     "partial_dfd": 4,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 3632
+    },
+    "BRK3": {
+     "orders": 49,
+     "filled": 41,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 12640
+    }
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "fault_day": false,
+   "orders": 84,
+   "fills": 29441,
+   "dropcopy_fills": 29441,
+   "alerts": 1,
+   "incidents": 1,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 822923114,
+    "net": 676554533,
+    "crossed": 17180007,
+    "dropped_min_notional": 13,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 5,
+    "n_symbols": 100
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2415,
+     "received": 10174,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2422,
+     "received": 12124,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2420,
+     "received": 12092,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 24,
+     "filled": 20,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8529
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 28,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10471
+    },
+    "BRK3": {
+     "orders": 29,
+     "filled": 27,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10441
+    }
+   }
+  },
+  {
+   "date": "2026-07-08",
+   "fault_day": true,
+   "orders": 97,
+   "fills": 30982,
+   "dropcopy_fills": 30987,
+   "alerts": 153,
+   "incidents": 25,
+   "faults_injected": 17,
+   "faults_detected": 15,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 921700695,
+    "net": 762505687,
+    "crossed": 3704139,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 5,
+    "n_symbols": 111
+   },
+   "ca_applied": 2,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2424,
+     "received": 9281,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2412,
+     "received": 13319,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2405,
+     "received": 13466,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 9
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 26,
+     "filled": 21,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 7509
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 30,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 11672
+    },
+    "BRK3": {
+     "orders": 37,
+     "filled": 34,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 11805
+    }
+   }
+  },
+  {
+   "date": "2026-07-09",
+   "fault_day": false,
+   "orders": 101,
+   "fills": 33930,
+   "dropcopy_fills": 33930,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 923484187,
+    "net": 752544736,
+    "crossed": 35033196,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 8,
+    "n_symbols": 112
+   },
+   "ca_applied": 8,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2410,
+     "received": 13467,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2406,
+     "received": 9865,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2418,
+     "received": 15546,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 33,
+     "filled": 29,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11819
+    },
+    "BRK2": {
+     "orders": 28,
+     "filled": 27,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 8226
+    },
+    "BRK3": {
+     "orders": 40,
+     "filled": 33,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 13885
+    }
+   }
+  },
+  {
+   "date": "2026-07-10",
+   "fault_day": true,
+   "orders": 108,
+   "fills": 34579,
+   "dropcopy_fills": 34585,
+   "alerts": 159,
+   "incidents": 27,
+   "faults_injected": 19,
+   "faults_detected": 18,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 24,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 950635730,
+    "net": 794098928,
+    "crossed": 48347390,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 3,
+    "n_symbols": 122
+   },
+   "ca_applied": 1,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2417,
+     "received": 14460,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2409,
+     "received": 11641,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2625,
+     "received": 14070,
+     "resent": 0,
+     "gap_fills": 1,
+     "dropped": 6
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 39,
+     "filled": 33,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12806
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 27,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9956
+    },
+    "BRK3": {
+     "orders": 38,
+     "filled": 32,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 11821
+    }
+   }
+  },
+  {
+   "date": "2026-07-13",
+   "fault_day": false,
+   "orders": 108,
+   "fills": 25169,
+   "dropcopy_fills": 25169,
+   "alerts": 9,
+   "incidents": 9,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1284973271,
+    "net": 938354940,
+    "crossed": 139941748,
+    "dropped_min_notional": 10,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 3,
+    "n_symbols": 120
+   },
+   "ca_applied": 0,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2423,
+     "received": 10252,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2425,
+     "received": 9799,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2434,
+     "received": 10091,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 32,
+     "filled": 28,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 8600
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 31,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8145
+    },
+    "BRK3": {
+     "orders": 42,
+     "filled": 37,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 8424
+    }
+   }
+  },
+  {
+   "date": "2026-07-14",
+   "fault_day": true,
+   "orders": 75,
+   "fills": 24678,
+   "dropcopy_fills": 24683,
+   "alerts": 154,
+   "incidents": 26,
+   "faults_injected": 19,
+   "faults_detected": 15,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 727653156,
+    "net": 626950041,
+    "crossed": 13838838,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 4,
+    "n_symbols": 89
+   },
+   "ca_applied": 0,
+   "checks_warn": 4,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2413,
+     "received": 9171,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2411,
+     "received": 11817,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 134
+    },
+    "BRK3": {
+     "sent": 2287,
+     "received": 9153,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 22,
+     "filled": 20,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 7529
+    },
+    "BRK2": {
+     "orders": 28,
+     "filled": 22,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 9903
+    },
+    "BRK3": {
+     "orders": 25,
+     "filled": 20,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 7250
+    }
+   }
+  },
+  {
+   "date": "2026-07-15",
+   "fault_day": false,
+   "orders": 101,
+   "fills": 36957,
+   "dropcopy_fills": 36957,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 838043668,
+    "net": 757027123,
+    "crossed": 8581344,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 2,
+    "n_symbols": 114
+   },
+   "ca_applied": 3,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2412,
+     "received": 15118,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2410,
+     "received": 12000,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2413,
+     "received": 14785,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 35,
+     "filled": 31,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13470
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 30,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10353
+    },
+    "BRK3": {
+     "orders": 35,
+     "filled": 32,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13134
+    }
+   }
+  },
+  {
+   "date": "2026-07-16",
+   "fault_day": true,
+   "orders": 96,
+   "fills": 31108,
+   "dropcopy_fills": 31112,
+   "alerts": 28,
+   "incidents": 22,
+   "faults_injected": 17,
+   "faults_detected": 15,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 24,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 752669457,
+    "net": 673588464,
+    "crossed": 18894877,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 2,
+    "n_symbols": 110
+   },
+   "ca_applied": 0,
+   "checks_warn": 6,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2407,
+     "received": 11181,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2412,
+     "received": 13362,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2402,
+     "received": 11715,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 8
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 30,
+     "filled": 27,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 9538
+    },
+    "BRK2": {
+     "orders": 32,
+     "filled": 30,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11524
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 28,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 10049
+    }
+   }
+  },
+  {
+   "date": "2026-07-17",
+   "fault_day": false,
+   "orders": 113,
+   "fills": 42632,
+   "dropcopy_fills": 42632,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1080136697,
+    "net": 980367019,
+    "crossed": 19001636,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 5,
+    "n_symbols": 122
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2423,
+     "received": 18970,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2407,
+     "received": 12198,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2417,
+     "received": 16423,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 45,
+     "filled": 41,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 17309
+    },
+    "BRK2": {
+     "orders": 29,
+     "filled": 27,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10554
+    },
+    "BRK3": {
+     "orders": 39,
+     "filled": 36,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 14769
+    }
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "fault_day": true,
+   "orders": 123,
+   "fills": 24629,
+   "dropcopy_fills": 24634,
+   "alerts": 165,
+   "incidents": 34,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 610840332,
+    "net": 551278242,
+    "crossed": 17978933,
+    "dropped_min_notional": 14,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 1,
+    "n_symbols": 140
+   },
+   "ca_applied": 5,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2412,
+     "received": 9510,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 99
+    },
+    "BRK2": {
+     "sent": 2326,
+     "received": 10287,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2435,
+     "received": 10413,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 31,
+     "filled": 29,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 7667
+    },
+    "BRK2": {
+     "orders": 50,
+     "filled": 44,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 8384
+    },
+    "BRK3": {
+     "orders": 42,
+     "filled": 38,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 8582
+    }
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "fault_day": false,
+   "orders": 86,
+   "fills": 26659,
+   "dropcopy_fills": 26659,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 516497353,
+    "net": 446334408,
+    "crossed": 14440123,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 1,
+    "n_symbols": 101
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2408,
+     "received": 11322,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2405,
+     "received": 10152,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2405,
+     "received": 10111,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 31,
+     "filled": 28,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9677
+    },
+    "BRK2": {
+     "orders": 28,
+     "filled": 25,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8510
+    },
+    "BRK3": {
+     "orders": 27,
+     "filled": 27,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 8472
+    }
+   }
+  },
+  {
+   "date": "2026-07-22",
+   "fault_day": true,
+   "orders": 94,
+   "fills": 29178,
+   "dropcopy_fills": 29182,
+   "alerts": 160,
+   "incidents": 27,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 23,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 598495791,
+    "net": 521648781,
+    "crossed": 10690120,
+    "dropped_min_notional": 7,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 3,
+    "n_symbols": 104
+   },
+   "ca_applied": 0,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2429,
+     "received": 14283,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 175
+    },
+    "BRK2": {
+     "sent": 2406,
+     "received": 11511,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2275,
+     "received": 8994,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 39,
+     "filled": 38,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 12368
+    },
+    "BRK2": {
+     "orders": 28,
+     "filled": 22,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 9718
+    },
+    "BRK3": {
+     "orders": 27,
+     "filled": 21,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 7095
+    }
+   }
+  },
+  {
+   "date": "2026-07-23",
+   "fault_day": false,
+   "orders": 95,
+   "fills": 33013,
+   "dropcopy_fills": 33013,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 761483672,
+    "net": 654107649,
+    "crossed": 6520780,
+    "dropped_min_notional": 10,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 7,
+    "n_symbols": 109
+   },
+   "ca_applied": 2,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2405,
+     "received": 11372,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2407,
+     "received": 11218,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2416,
+     "received": 15361,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 28,
+     "filled": 23,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9732
+    },
+    "BRK2": {
+     "orders": 29,
+     "filled": 27,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 9575
+    },
+    "BRK3": {
+     "orders": 38,
+     "filled": 35,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 13706
+    }
+   }
+  },
+  {
+   "date": "2026-07-24",
+   "fault_day": true,
+   "orders": 104,
+   "fills": 34442,
+   "dropcopy_fills": 34447,
+   "alerts": 161,
+   "incidents": 25,
+   "faults_injected": 18,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 22,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 653756179,
+    "net": 593448770,
+    "crossed": 1277765,
+    "dropped_min_notional": 5,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 3,
+    "n_symbols": 112
+   },
+   "ca_applied": 6,
+   "checks_warn": 5,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2418,
+     "received": 15076,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2413,
+     "received": 13888,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2415,
+     "received": 10680,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 9
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 40,
+     "filled": 36,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 13420
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 31,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 12235
+    },
+    "BRK3": {
+     "orders": 30,
+     "filled": 23,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 8790
+    }
+   }
+  },
+  {
+   "date": "2026-07-27",
+   "fault_day": false,
+   "orders": 132,
+   "fills": 29852,
+   "dropcopy_fills": 29852,
+   "alerts": 6,
+   "incidents": 6,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 617973936,
+    "net": 544560473,
+    "crossed": 3240215,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 2,
+    "n_symbols": 144
+   },
+   "ca_applied": 1,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2437,
+     "received": 12689,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2436,
+     "received": 10679,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2432,
+     "received": 11479,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 46,
+     "filled": 44,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11023
+    },
+    "BRK2": {
+     "orders": 45,
+     "filled": 42,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9014
+    },
+    "BRK3": {
+     "orders": 41,
+     "filled": 39,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9815
+    }
+   }
+  },
+  {
+   "date": "2026-07-28",
+   "fault_day": true,
+   "orders": 100,
+   "fills": 31839,
+   "dropcopy_fills": 31843,
+   "alerts": 153,
+   "incidents": 26,
+   "faults_injected": 17,
+   "faults_detected": 14,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 795214811,
+    "net": 704608756,
+    "crossed": 1790530,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 109
+   },
+   "ca_applied": 1,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2271,
+     "received": 11078,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 131
+    },
+    "BRK2": {
+     "sent": 2424,
+     "received": 15767,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2401,
+     "received": 10331,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 32,
+     "filled": 25,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 2,
+     "fills": 9053
+    },
+    "BRK2": {
+     "orders": 44,
+     "filled": 42,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 14098
+    },
+    "BRK3": {
+     "orders": 24,
+     "filled": 20,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 8692
+    }
+   }
+  },
+  {
+   "date": "2026-07-29",
+   "fault_day": false,
+   "orders": 109,
+   "fills": 39571,
+   "dropcopy_fills": 39571,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 12,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 924167354,
+    "net": 874387009,
+    "crossed": 210811,
+    "dropped_min_notional": 5,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 2,
+    "n_symbols": 118
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2414,
+     "received": 14481,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2420,
+     "received": 17166,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2408,
+     "received": 12875,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 37,
+     "filled": 37,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 12834
+    },
+    "BRK2": {
+     "orders": 41,
+     "filled": 39,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 15506
+    },
+    "BRK3": {
+     "orders": 31,
+     "filled": 28,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 11231
+    }
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "fault_day": true,
+   "orders": 92,
+   "fills": 30033,
+   "dropcopy_fills": 30038,
+   "alerts": 91,
+   "incidents": 23,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 613964691,
+    "net": 557698392,
+    "crossed": 134984,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 3,
+    "n_symbols": 101
+   },
+   "ca_applied": 0,
+   "checks_warn": 4,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2415,
+     "received": 14612,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2410,
+     "received": 11921,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2371,
+     "received": 8793,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 7
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 35,
+     "filled": 34,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 12959
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 26,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 10274
+    },
+    "BRK3": {
+     "orders": 26,
+     "filled": 20,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 6804
+    }
+   }
+  },
+  {
+   "date": "2026-07-31",
+   "fault_day": false,
+   "orders": 101,
+   "fills": 37383,
+   "dropcopy_fills": 37383,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 806625012,
+    "net": 649908395,
+    "crossed": 0,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC"
+    ],
+    "capped": 7,
+    "n_symbols": 109
+   },
+   "ca_applied": 4,
+   "checks_warn": 4,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2407,
+     "received": 11866,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2417,
+     "received": 15790,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2411,
+     "received": 14675,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 29,
+     "filled": 25,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 10221
+    },
+    "BRK2": {
+     "orders": 38,
+     "filled": 36,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 14136
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 30,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13026
+    }
+   }
+  },
+  {
+   "date": "2026-08-03",
+   "fault_day": true,
+   "orders": 165,
+   "fills": 50685,
+   "dropcopy_fills": 50690,
+   "alerts": 125,
+   "incidents": 33,
+   "faults_injected": 20,
+   "faults_detected": 18,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 2706621460,
+    "net": 2043132667,
+    "crossed": 151395698,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 174
+   },
+   "ca_applied": 5,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2441,
+     "received": 19727,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 207
+    },
+    "BRK2": {
+     "sent": 2446,
+     "received": 19051,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2444,
+     "received": 17036,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 59,
+     "filled": 49,
+     "partial_dfd": 2,
+     "rejected": 5,
+     "canceled": 2,
+     "fills": 17993
+    },
+    "BRK2": {
+     "orders": 53,
+     "filled": 48,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 17372
+    },
+    "BRK3": {
+     "orders": 53,
+     "filled": 49,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 15324
+    }
+   }
+  },
+  {
+   "date": "2026-08-04",
+   "fault_day": false,
+   "orders": 93,
+   "fills": 31935,
+   "dropcopy_fills": 31935,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1041339819,
+    "net": 493595595,
+    "crossed": 105168514,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 7,
+    "n_symbols": 108
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2406,
+     "received": 11121,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2408,
+     "received": 11362,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2411,
+     "received": 14389,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 28,
+     "filled": 27,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 9478
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 27,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9718
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 30,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12739
+    }
+   }
+  },
+  {
+   "date": "2026-08-05",
+   "fault_day": true,
+   "orders": 98,
+   "fills": 30730,
+   "dropcopy_fills": 30734,
+   "alerts": 160,
+   "incidents": 25,
+   "faults_injected": 19,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 25,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1077856207,
+    "net": 709022670,
+    "crossed": 38294884,
+    "dropped_min_notional": 8,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 110
+   },
+   "ca_applied": 0,
+   "checks_warn": 4,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2411,
+     "received": 12833,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2417,
+     "received": 12193,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2395,
+     "received": 10928,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 14
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 34,
+     "filled": 31,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11188
+    },
+    "BRK2": {
+     "orders": 37,
+     "filled": 30,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 10538
+    },
+    "BRK3": {
+     "orders": 27,
+     "filled": 23,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 9008
+    }
+   }
+  },
+  {
+   "date": "2026-08-06",
+   "fault_day": false,
+   "orders": 86,
+   "fills": 27291,
+   "dropcopy_fills": 27291,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 12,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 880503681,
+    "net": 519009241,
+    "crossed": 37415137,
+    "dropped_min_notional": 12,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 102
+   },
+   "ca_applied": 9,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2413,
+     "received": 13413,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2399,
+     "received": 8645,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2406,
+     "received": 10160,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 36,
+     "filled": 34,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11763
+    },
+    "BRK2": {
+     "orders": 22,
+     "filled": 20,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 7012
+    },
+    "BRK3": {
+     "orders": 28,
+     "filled": 25,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8516
+    }
+   }
+  },
+  {
+   "date": "2026-08-07",
+   "fault_day": true,
+   "orders": 100,
+   "fills": 30373,
+   "dropcopy_fills": 30378,
+   "alerts": 177,
+   "incidents": 26,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1091539452,
+    "net": 765862873,
+    "crossed": 29443117,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 6,
+    "n_symbols": 113
+   },
+   "ca_applied": 2,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2395,
+     "received": 10124,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 78
+    },
+    "BRK2": {
+     "sent": 2291,
+     "received": 13385,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2426,
+     "received": 12282,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 29,
+     "filled": 24,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8392
+    },
+    "BRK2": {
+     "orders": 40,
+     "filled": 32,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 2,
+     "fills": 11466
+    },
+    "BRK3": {
+     "orders": 31,
+     "filled": 29,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10519
+    }
+   }
+  },
+  {
+   "date": "2026-08-10",
+   "fault_day": false,
+   "orders": 131,
+   "fills": 33205,
+   "dropcopy_fills": 33205,
+   "alerts": 6,
+   "incidents": 6,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1062066503,
+    "net": 725049081,
+    "crossed": 28623103,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 7,
+    "n_symbols": 143
+   },
+   "ca_applied": 3,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2424,
+     "received": 9575,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2435,
+     "received": 12830,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2447,
+     "received": 15797,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 33,
+     "filled": 28,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 7917
+    },
+    "BRK2": {
+     "orders": 44,
+     "filled": 43,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11169
+    },
+    "BRK3": {
+     "orders": 54,
+     "filled": 52,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 14119
+    }
+   }
+  },
+  {
+   "date": "2026-08-11",
+   "fault_day": true,
+   "orders": 96,
+   "fills": 31194,
+   "dropcopy_fills": 31199,
+   "alerts": 155,
+   "incidents": 27,
+   "faults_injected": 20,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 944353939,
+    "net": 675699094,
+    "crossed": 23566419,
+    "dropped_min_notional": 12,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 110
+   },
+   "ca_applied": 3,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2399,
+     "received": 9573,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2417,
+     "received": 15671,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2596,
+     "received": 11811,
+     "resent": 0,
+     "gap_fills": 1,
+     "dropped": 6
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 22,
+     "filled": 19,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 7589
+    },
+    "BRK2": {
+     "orders": 40,
+     "filled": 37,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 14020
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 26,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 3,
+     "fills": 9589
+    }
+   }
+  },
+  {
+   "date": "2026-08-12",
+   "fault_day": false,
+   "orders": 102,
+   "fills": 35978,
+   "dropcopy_fills": 35978,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 12,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1041710694,
+    "net": 785166376,
+    "crossed": 21942494,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 6,
+    "n_symbols": 114
+   },
+   "ca_applied": 3,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2416,
+     "received": 14523,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2411,
+     "received": 13512,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2409,
+     "received": 12891,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 37,
+     "filled": 33,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 12867
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 32,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11866
+    },
+    "BRK3": {
+     "orders": 31,
+     "filled": 28,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11245
+    }
+   }
+  },
+  {
+   "date": "2026-08-13",
+   "fault_day": true,
+   "orders": 96,
+   "fills": 30399,
+   "dropcopy_fills": 30403,
+   "alerts": 94,
+   "incidents": 25,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 25,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 875130874,
+    "net": 636468058,
+    "crossed": 13472587,
+    "dropped_min_notional": 8,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 108
+   },
+   "ca_applied": 10,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2356,
+     "received": 11060,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2411,
+     "received": 13060,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2396,
+     "received": 11527,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 134
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 33,
+     "filled": 26,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 2,
+     "fills": 9311
+    },
+    "BRK2": {
+     "orders": 34,
+     "filled": 32,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11411
+    },
+    "BRK3": {
+     "orders": 29,
+     "filled": 26,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9681
+    }
+   }
+  },
+  {
+   "date": "2026-08-14",
+   "fault_day": false,
+   "orders": 96,
+   "fills": 32746,
+   "dropcopy_fills": 32746,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1008430228,
+    "net": 716449008,
+    "crossed": 6323084,
+    "dropped_min_notional": 8,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 7,
+    "n_symbols": 107
+   },
+   "ca_applied": 8,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2409,
+     "received": 12110,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2408,
+     "received": 13425,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2412,
+     "received": 12151,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 31,
+     "filled": 29,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10464
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 26,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11780
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 30,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10502
+    }
+   }
+  },
+  {
+   "date": "2026-08-17",
+   "fault_day": true,
+   "orders": 124,
+   "fills": 29723,
+   "dropcopy_fills": 29728,
+   "alerts": 96,
+   "incidents": 28,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 934946727,
+    "net": 699894523,
+    "crossed": 28308871,
+    "dropped_min_notional": 14,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 141
+   },
+   "ca_applied": 6,
+   "checks_warn": 5,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2419,
+     "received": 11648,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 35
+    },
+    "BRK2": {
+     "sent": 2435,
+     "received": 13099,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2433,
+     "received": 10065,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 38,
+     "filled": 35,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9894
+    },
+    "BRK2": {
+     "orders": 44,
+     "filled": 39,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11431
+    },
+    "BRK3": {
+     "orders": 42,
+     "filled": 35,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 8402
+    }
+   }
+  },
+  {
+   "date": "2026-08-18",
+   "fault_day": false,
+   "orders": 106,
+   "fills": 38428,
+   "dropcopy_fills": 38428,
+   "alerts": 1,
+   "incidents": 1,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1142838943,
+    "net": 868116784,
+    "crossed": 53406293,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 118
+   },
+   "ca_applied": 0,
+   "checks_warn": 1,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2413,
+     "received": 14306,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2412,
+     "received": 14539,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2414,
+     "received": 14536,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 35,
+     "filled": 30,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 12653
+    },
+    "BRK2": {
+     "orders": 35,
+     "filled": 31,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 12893
+    },
+    "BRK3": {
+     "orders": 36,
+     "filled": 33,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 12882
+    }
+   }
+  },
+  {
+   "date": "2026-08-19",
+   "fault_day": true,
+   "orders": 101,
+   "fills": 33987,
+   "dropcopy_fills": 33992,
+   "alerts": 158,
+   "incidents": 26,
+   "faults_injected": 19,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 976953363,
+    "net": 754989346,
+    "crossed": 11977410,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 9,
+    "n_symbols": 116
+   },
+   "ca_applied": 6,
+   "checks_warn": 5,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2403,
+     "received": 14927,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 29
+    },
+    "BRK2": {
+     "sent": 2281,
+     "received": 10548,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2411,
+     "received": 13895,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 36,
+     "filled": 32,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13101
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 23,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 3,
+     "fills": 8643
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 31,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 12247
+    }
+   }
+  },
+  {
+   "date": "2026-08-20",
+   "fault_day": false,
+   "orders": 112,
+   "fills": 42645,
+   "dropcopy_fills": 42645,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1244583192,
+    "net": 1040869828,
+    "crossed": 22078301,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 8,
+    "n_symbols": 122
+   },
+   "ca_applied": 6,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2427,
+     "received": 19943,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2416,
+     "received": 16364,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2403,
+     "received": 11297,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 47,
+     "filled": 41,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 18274
+    },
+    "BRK2": {
+     "orders": 39,
+     "filled": 35,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 14711
+    },
+    "BRK3": {
+     "orders": 26,
+     "filled": 24,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9660
+    }
+   }
+  },
+  {
+   "date": "2026-08-21",
+   "fault_day": true,
+   "orders": 91,
+   "fills": 28452,
+   "dropcopy_fills": 28456,
+   "alerts": 161,
+   "incidents": 28,
+   "faults_injected": 19,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 23,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 710565354,
+    "net": 559294547,
+    "crossed": 6518786,
+    "dropped_min_notional": 14,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 109
+   },
+   "ca_applied": 4,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2414,
+     "received": 14114,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2270,
+     "received": 10027,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 125
+    },
+    "BRK3": {
+     "sent": 2271,
+     "received": 9815,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 36,
+     "filled": 30,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12454
+    },
+    "BRK2": {
+     "orders": 31,
+     "filled": 26,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 8061
+    },
+    "BRK3": {
+     "orders": 24,
+     "filled": 22,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 7940
+    }
+   }
+  },
+  {
+   "date": "2026-08-24",
+   "fault_day": false,
+   "orders": 130,
+   "fills": 32223,
+   "dropcopy_fills": 32223,
+   "alerts": 2,
+   "incidents": 2,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 841830809,
+    "net": 686374516,
+    "crossed": 9587692,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 143
+   },
+   "ca_applied": 1,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2430,
+     "received": 12059,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2433,
+     "received": 11739,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2442,
+     "received": 13423,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 37,
+     "filled": 34,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 10397
+    },
+    "BRK2": {
+     "orders": 42,
+     "filled": 37,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10074
+    },
+    "BRK3": {
+     "orders": 51,
+     "filled": 49,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11752
+    }
+   }
+  },
+  {
+   "date": "2026-08-25",
+   "fault_day": true,
+   "orders": 83,
+   "fills": 24151,
+   "dropcopy_fills": 24157,
+   "alerts": 158,
+   "incidents": 27,
+   "faults_injected": 18,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 24,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 710612000,
+    "net": 551914292,
+    "crossed": 4348034,
+    "dropped_min_notional": 17,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 104
+   },
+   "ca_applied": 3,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2410,
+     "received": 14162,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 24
+    },
+    "BRK2": {
+     "sent": 2400,
+     "received": 8548,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2398,
+     "received": 6587,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 41,
+     "filled": 35,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12482
+    },
+    "BRK2": {
+     "orders": 21,
+     "filled": 20,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 6715
+    },
+    "BRK3": {
+     "orders": 21,
+     "filled": 16,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 4958
+    }
+   }
+  },
+  {
+   "date": "2026-08-26",
+   "fault_day": false,
+   "orders": 86,
+   "fills": 26010,
+   "dropcopy_fills": 26010,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 592277883,
+    "net": 457472839,
+    "crossed": 4593925,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 99
+   },
+   "ca_applied": 2,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2408,
+     "received": 11119,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2402,
+     "received": 8594,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2409,
+     "received": 11225,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 31,
+     "filled": 27,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9473
+    },
+    "BRK2": {
+     "orders": 25,
+     "filled": 22,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 6957
+    },
+    "BRK3": {
+     "orders": 30,
+     "filled": 27,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 9580
+    }
+   }
+  },
+  {
+   "date": "2026-08-27",
+   "fault_day": true,
+   "orders": 109,
+   "fills": 35101,
+   "dropcopy_fills": 35106,
+   "alerts": 156,
+   "incidents": 25,
+   "faults_injected": 19,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1010080854,
+    "net": 869144486,
+    "crossed": 17562690,
+    "dropped_min_notional": 7,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 120
+   },
+   "ca_applied": 2,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2409,
+     "received": 12721,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2281,
+     "received": 10389,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2414,
+     "received": 17486,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 44
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 32,
+     "filled": 31,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11079
+    },
+    "BRK2": {
+     "orders": 32,
+     "filled": 26,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 8481
+    },
+    "BRK3": {
+     "orders": 45,
+     "filled": 39,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 15545
+    }
+   }
+  },
+  {
+   "date": "2026-08-28",
+   "fault_day": false,
+   "orders": 98,
+   "fills": 33054,
+   "dropcopy_fills": 33054,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 753632571,
+    "net": 633234291,
+    "crossed": 5740465,
+    "dropped_min_notional": 7,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 109
+   },
+   "ca_applied": 1,
+   "checks_warn": 4,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2407,
+     "received": 12519,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2414,
+     "received": 12624,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2411,
+     "received": 12851,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 30,
+     "filled": 27,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10875
+    },
+    "BRK2": {
+     "orders": 35,
+     "filled": 34,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10974
+    },
+    "BRK3": {
+     "orders": 33,
+     "filled": 30,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 11205
+    }
+   }
+  },
+  {
+   "date": "2026-08-31",
+   "fault_day": true,
+   "orders": 123,
+   "fills": 29302,
+   "dropcopy_fills": 29307,
+   "alerts": 93,
+   "incidents": 26,
+   "faults_injected": 19,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 699736637,
+    "net": 600266853,
+    "crossed": 6771338,
+    "dropped_min_notional": 13,
+    "restricted": [
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 3,
+    "n_symbols": 143
+   },
+   "ca_applied": 6,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2436,
+     "received": 11737,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2300,
+     "received": 12084,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 7
+    },
+    "BRK3": {
+     "sent": 2431,
+     "received": 10729,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 44,
+     "filled": 40,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 10065
+    },
+    "BRK2": {
+     "orders": 39,
+     "filled": 32,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 10168
+    },
+    "BRK3": {
+     "orders": 40,
+     "filled": 39,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 9073
+    }
+   }
+  },
+  {
+   "date": "2026-09-01",
+   "fault_day": false,
+   "orders": 158,
+   "fills": 60357,
+   "dropcopy_fills": 60357,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 3382417422,
+    "net": 2613600791,
+    "crossed": 127716448,
+    "dropped_min_notional": 4,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 10,
+    "n_symbols": 165
+   },
+   "ca_applied": 9,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2428,
+     "received": 19434,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2426,
+     "received": 20983,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2439,
+     "received": 24956,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 49,
+     "filled": 43,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 17767
+    },
+    "BRK2": {
+     "orders": 49,
+     "filled": 40,
+     "partial_dfd": 7,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 19315
+    },
+    "BRK3": {
+     "orders": 60,
+     "filled": 54,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 23275
+    }
+   }
+  },
+  {
+   "date": "2026-09-02",
+   "fault_day": true,
+   "orders": 110,
+   "fills": 35995,
+   "dropcopy_fills": 36000,
+   "alerts": 115,
+   "incidents": 27,
+   "faults_injected": 19,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1160674638,
+    "net": 815780481,
+    "crossed": 55369113,
+    "dropped_min_notional": 3,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 7,
+    "n_symbols": 116
+   },
+   "ca_applied": 2,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2396,
+     "received": 12959,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 110
+    },
+    "BRK2": {
+     "sent": 2421,
+     "received": 15172,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2415,
+     "received": 12987,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 31,
+     "filled": 27,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11253
+    },
+    "BRK2": {
+     "orders": 44,
+     "filled": 37,
+     "partial_dfd": 1,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 13513
+    },
+    "BRK3": {
+     "orders": 35,
+     "filled": 29,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 3,
+     "fills": 11233
+    }
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "fault_day": false,
+   "orders": 99,
+   "fills": 33746,
+   "dropcopy_fills": 33746,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1047380891,
+    "net": 707966942,
+    "crossed": 75962153,
+    "dropped_min_notional": 10,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 8,
+    "n_symbols": 112
+   },
+   "ca_applied": 8,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2409,
+     "received": 13257,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2412,
+     "received": 12972,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2412,
+     "received": 12461,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 32,
+     "filled": 28,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 11612
+    },
+    "BRK2": {
+     "orders": 33,
+     "filled": 26,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 11320
+    },
+    "BRK3": {
+     "orders": 34,
+     "filled": 33,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10814
+    }
+   }
+  },
+  {
+   "date": "2026-09-04",
+   "fault_day": true,
+   "orders": 86,
+   "fills": 23391,
+   "dropcopy_fills": 23396,
+   "alerts": 159,
+   "incidents": 28,
+   "faults_injected": 20,
+   "faults_detected": 18,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 706963961,
+    "net": 447328817,
+    "crossed": 49877817,
+    "dropped_min_notional": 11,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 8,
+    "n_symbols": 100
+   },
+   "ca_applied": 6,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2406,
+     "received": 10285,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK2": {
+     "sent": 2394,
+     "received": 9225,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 100
+    },
+    "BRK3": {
+     "sent": 2280,
+     "received": 9292,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 27,
+     "filled": 22,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 8443
+    },
+    "BRK2": {
+     "orders": 27,
+     "filled": 23,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 7561
+    },
+    "BRK3": {
+     "orders": 32,
+     "filled": 27,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 7391
+    }
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "fault_day": false,
+   "orders": 8,
+   "fills": 2910,
+   "dropcopy_fills": 2910,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 10,
+    "found": 10,
+    "n_breaks": 12,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 996490579,
+    "net": 751585408,
+    "crossed": 66107626,
+    "dropped_min_notional": 12,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "AMC",
+     "SMCI"
+    ],
+    "capped": 3,
+    "n_symbols": 143
+   },
+   "ca_applied": 0,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 1434,
+     "received": 1433,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 1588,
+     "received": 3436,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 1582,
+     "received": 1581,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 1,
+     "filled": 1,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 60
+    },
+    "BRK2": {
+     "orders": 6,
+     "filled": 5,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 2350
+    },
+    "BRK3": {
+     "orders": 1,
+     "filled": 1,
+     "partial_dfd": 0,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 500
+    }
+   }
+  },
+  {
+   "date": "2026-09-08",
+   "fault_day": true,
+   "orders": 113,
+   "fills": 27512,
+   "dropcopy_fills": 27516,
+   "alerts": 93,
+   "incidents": 32,
+   "faults_injected": 18,
+   "faults_detected": 16,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 24,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1550565921,
+    "net": 1214606682,
+    "crossed": 109374135,
+    "dropped_min_notional": 7,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 123
+   },
+   "ca_applied": 4,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2437,
+     "received": 13908,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2434,
+     "received": 12223,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 93
+    },
+    "BRK3": {
+     "sent": 2296,
+     "received": 6730,
+     "resent": 0,
+     "gap_fills": 1,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 45,
+     "filled": 36,
+     "partial_dfd": 7,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 12234
+    },
+    "BRK2": {
+     "orders": 35,
+     "filled": 28,
+     "partial_dfd": 6,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10469
+    },
+    "BRK3": {
+     "orders": 33,
+     "filled": 24,
+     "partial_dfd": 3,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 4812
+    }
+   }
+  },
+  {
+   "date": "2026-09-09",
+   "fault_day": false,
+   "orders": 87,
+   "fills": 31116,
+   "dropcopy_fills": 31116,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 976213889,
+    "net": 750272194,
+    "crossed": 56340151,
+    "dropped_min_notional": 8,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 4,
+    "n_symbols": 98
+   },
+   "ca_applied": 0,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2429,
+     "received": 14747,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2414,
+     "received": 10123,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2418,
+     "received": 11198,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 37,
+     "filled": 34,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 13086
+    },
+    "BRK2": {
+     "orders": 23,
+     "filled": 21,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 8480
+    },
+    "BRK3": {
+     "orders": 27,
+     "filled": 23,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9550
+    }
+   }
+  },
+  {
+   "date": "2026-09-10",
+   "fault_day": true,
+   "orders": 92,
+   "fills": 26363,
+   "dropcopy_fills": 26366,
+   "alerts": 92,
+   "incidents": 24,
+   "faults_injected": 17,
+   "faults_detected": 15,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 24,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 659460074,
+    "net": 537044586,
+    "crossed": 16586869,
+    "dropped_min_notional": 10,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 3,
+    "n_symbols": 105
+   },
+   "ca_applied": 3,
+   "checks_warn": 6,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2420,
+     "received": 9643,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2409,
+     "received": 11218,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 22
+    },
+    "BRK3": {
+     "sent": 2426,
+     "received": 10687,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 28,
+     "filled": 25,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 7990
+    },
+    "BRK2": {
+     "orders": 29,
+     "filled": 27,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 9408
+    },
+    "BRK3": {
+     "orders": 35,
+     "filled": 26,
+     "partial_dfd": 2,
+     "rejected": 5,
+     "canceled": 2,
+     "fills": 8968
+    }
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "fault_day": false,
+   "orders": 99,
+   "fills": 33284,
+   "dropcopy_fills": 33284,
+   "alerts": 0,
+   "incidents": 0,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 710291910,
+    "net": 615382740,
+    "crossed": 15970228,
+    "dropped_min_notional": 9,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 2,
+    "n_symbols": 111
+   },
+   "ca_applied": 4,
+   "checks_warn": 2,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2404,
+     "received": 10704,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2409,
+     "received": 12161,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2417,
+     "received": 15360,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 27,
+     "filled": 24,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9063
+    },
+    "BRK2": {
+     "orders": 32,
+     "filled": 29,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 10518
+    },
+    "BRK3": {
+     "orders": 40,
+     "filled": 37,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 13703
+    }
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "fault_day": true,
+   "orders": 125,
+   "fills": 27170,
+   "dropcopy_fills": 27174,
+   "alerts": 94,
+   "incidents": 26,
+   "faults_injected": 17,
+   "faults_detected": 15,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1166661018,
+    "net": 989609546,
+    "crossed": 15709091,
+    "dropped_min_notional": 19,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 147
+   },
+   "ca_applied": 1,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2429,
+     "received": 10700,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2426,
+     "received": 11613,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 14
+    },
+    "BRK3": {
+     "sent": 2307,
+     "received": 10457,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 38,
+     "filled": 31,
+     "partial_dfd": 5,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9038
+    },
+    "BRK2": {
+     "orders": 43,
+     "filled": 36,
+     "partial_dfd": 6,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 9634
+    },
+    "BRK3": {
+     "orders": 44,
+     "filled": 36,
+     "partial_dfd": 2,
+     "rejected": 5,
+     "canceled": 1,
+     "fills": 8502
+    }
+   }
+  },
+  {
+   "date": "2026-09-15",
+   "fault_day": false,
+   "orders": 89,
+   "fills": 33325,
+   "dropcopy_fills": 33325,
+   "alerts": 1,
+   "incidents": 1,
+   "faults_injected": 0,
+   "faults_detected": 0,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 13,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 1042550292,
+    "net": 920713888,
+    "crossed": 6015649,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 5,
+    "n_symbols": 99
+   },
+   "ca_applied": 7,
+   "checks_warn": 3,
+   "checks_fail": 0,
+   "sessions": {
+    "BRK1": {
+     "sent": 2422,
+     "received": 12649,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2421,
+     "received": 13372,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK3": {
+     "sent": 2420,
+     "received": 12264,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 30,
+     "filled": 25,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10993
+    },
+    "BRK2": {
+     "orders": 30,
+     "filled": 26,
+     "partial_dfd": 4,
+     "rejected": 0,
+     "canceled": 0,
+     "fills": 11720
+    },
+    "BRK3": {
+     "orders": 29,
+     "filled": 25,
+     "partial_dfd": 3,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10612
+    }
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "fault_day": true,
+   "orders": 86,
+   "fills": 31138,
+   "dropcopy_fills": 31143,
+   "alerts": 90,
+   "incidents": 26,
+   "faults_injected": 19,
+   "faults_detected": 17,
+   "recon": {
+    "by_type": {
+     "missing_at_pb": {
+      "seeded": 2,
+      "found": 2
+     },
+     "price_diff": {
+      "seeded": 2,
+      "found": 2
+     },
+     "qty_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "side_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "symbol_diff": {
+      "seeded": 1,
+      "found": 1
+     },
+     "late_booking": {
+      "seeded": 2,
+      "found": 2
+     },
+     "extra_at_pb": {
+      "seeded": 1,
+      "found": 1
+     },
+     "duplicate_at_pb": {
+      "seeded": 1,
+      "found": 1
+     }
+    },
+    "seeded": 11,
+    "found": 11,
+    "n_breaks": 26,
+    "unexplained": 0,
+    "unexplained_by_type": {}
+   },
+   "netting": {
+    "gross": 931844156,
+    "net": 849446460,
+    "crossed": 2587042,
+    "dropped_min_notional": 6,
+    "restricted": [
+     "BA",
+     "XRX"
+    ],
+    "locate_failed": [
+     "SMCI"
+    ],
+    "capped": 1,
+    "n_symbols": 95
+   },
+   "ca_applied": 3,
+   "checks_warn": 7,
+   "checks_fail": 1,
+   "sessions": {
+    "BRK1": {
+     "sent": 2400,
+     "received": 8711,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 0
+    },
+    "BRK2": {
+     "sent": 2404,
+     "received": 12055,
+     "resent": 0,
+     "gap_fills": 0,
+     "dropped": 1
+    },
+    "BRK3": {
+     "sent": 2405,
+     "received": 15424,
+     "resent": 0,
+     "gap_fills": 2,
+     "dropped": 43
+    }
+   },
+   "broker": {
+    "BRK1": {
+     "orders": 23,
+     "filled": 18,
+     "partial_dfd": 0,
+     "rejected": 5,
+     "canceled": 0,
+     "fills": 7080
+    },
+    "BRK2": {
+     "orders": 27,
+     "filled": 24,
+     "partial_dfd": 1,
+     "rejected": 0,
+     "canceled": 1,
+     "fills": 10388
+    },
+    "BRK3": {
+     "orders": 36,
+     "filled": 32,
+     "partial_dfd": 2,
+     "rejected": 0,
+     "canceled": 2,
+     "fills": 13674
+    }
+   }
+  }
+ ],
+ "monitor": {
+  "by_type": {
+   "dup_fill": {
+    "injected": 52,
+    "detected": 52,
+    "median_ttd_s": 0.5520000457763672,
+    "p90_ttd_s": 0.5520000457763672
+   },
+   "bad_price": {
+    "injected": 50,
+    "detected": 50,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   },
+   "stale_leaves": {
+    "injected": 26,
+    "detected": 26,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   },
+   "seq_gap": {
+    "injected": 28,
+    "detected": 27,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   },
+   "dropcopy_missing": {
+    "injected": 52,
+    "detected": 0,
+    "median_ttd_s": null,
+    "p90_ttd_s": null
+   },
+   "over_participation": {
+    "injected": 19,
+    "detected": 19,
+    "median_ttd_s": 240.0,
+    "p90_ttd_s": 255.0
+   },
+   "reject_storm": {
+    "injected": 28,
+    "detected": 27,
+    "median_ttd_s": 14.997999906539917,
+    "p90_ttd_s": 14.997999906539917
+   },
+   "overfill": {
+    "injected": 26,
+    "detected": 26,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   },
+   "latency_spike": {
+    "injected": 28,
+    "detected": 27,
+    "median_ttd_s": 15.0,
+    "p90_ttd_s": 123.00000000000026
+   },
+   "drop_ack": {
+    "injected": 50,
+    "detected": 50,
+    "median_ttd_s": 14.997999906539917,
+    "p90_ttd_s": 14.997999906539917
+   },
+   "stuck": {
+    "injected": 47,
+    "detected": 42,
+    "median_ttd_s": 1470.0,
+    "p90_ttd_s": 2100.0
+   },
+   "wrong_side": {
+    "injected": 27,
+    "detected": 27,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   },
+   "late_fill_after_cancel": {
+    "injected": 27,
+    "detected": 27,
+    "median_ttd_s": 2.002000093460083,
+    "p90_ttd_s": 2.002000093460083
+   },
+   "silent_session": {
+    "injected": 28,
+    "detected": 28,
+    "median_ttd_s": 60.0,
+    "p90_ttd_s": 60.0
+   },
+   "symbol_mismatch": {
+    "injected": 26,
+    "detected": 26,
+    "median_ttd_s": 0.05200004577636719,
+    "p90_ttd_s": 0.05200004577636719
+   }
+  },
+  "injected": 514,
+  "detected": 454,
+  "detection_rate": 0.8832684824902723,
+  "monitor_injected": 462,
+  "monitor_detected": 454,
+  "monitor_detection_rate": 0.9826839826839827,
+  "median_ttd_s": 0.5520000457763672,
+  "p90_ttd_s": 255.0,
+  "false_alerts_per_clean_day": 0.9285714285714286,
+  "false_alerts_by_rule": {
+   "SLIPPAGE": 26
+  },
+  "fault_days": 28,
+  "clean_days": 28,
+  "clean_incidents_per_day": 0.9285714285714286
+ },
+ "recon": {
+  "days": 56,
+  "seeded": 608,
+  "found": 608,
+  "unexplained": 0,
+  "by_type": {
+   "missing_at_pb": {
+    "seeded": 112,
+    "found": 112
+   },
+   "price_diff": {
+    "seeded": 112,
+    "found": 112
+   },
+   "qty_diff": {
+    "seeded": 56,
+    "found": 56
+   },
+   "side_diff": {
+    "seeded": 56,
+    "found": 56
+   },
+   "symbol_diff": {
+    "seeded": 48,
+    "found": 48
+   },
+   "late_booking": {
+    "seeded": 112,
+    "found": 112
+   },
+   "extra_at_pb": {
+    "seeded": 56,
+    "found": 56
+   },
+   "duplicate_at_pb": {
+    "seeded": 56,
+    "found": 56
+   }
+  },
+  "breaks_by_type_and_label": [
+   {
+    "break_type": "duplicate_at_pb",
+    "seeded": "duplicate_at_pb",
+    "n": 56
+   },
+   {
+    "break_type": "extra_at_pb",
+    "seeded": "extra_at_pb",
+    "n": 56
+   },
+   {
+    "break_type": "extra_at_pb",
+    "seeded": "late_booking_resolved",
+    "n": 110
+   },
+   {
+    "break_type": "missing_at_pb",
+    "seeded": "fault:dropcopy_missing",
+    "n": 52
+   },
+   {
+    "break_type": "missing_at_pb",
+    "seeded": "late_booking",
+    "n": 112
+   },
+   {
+    "break_type": "missing_at_pb",
+    "seeded": "missing_at_pb",
+    "n": 112
+   },
+   {
+    "break_type": "missing_in_dropcopy",
+    "seeded": "fault:dropcopy_missing",
+    "n": 52
+   },
+   {
+    "break_type": "missing_internal",
+    "seeded": "fault:late_fill_after_cancel",
+    "n": 27
+   },
+   {
+    "break_type": "missing_internal",
+    "seeded": "fault:overfill",
+    "n": 26
+   },
+   {
+    "break_type": "missing_internal",
+    "seeded": "fault:stale_leaves",
+    "n": 26
+   },
+   {
+    "break_type": "missing_internal",
+    "seeded": "fault:symbol_mismatch",
+    "n": 26
+   },
+   {
+    "break_type": "missing_internal",
+    "seeded": "fault:wrong_side",
+    "n": 27
+   },
+   {
+    "break_type": "price_diff",
+    "seeded": "price_diff",
+    "n": 112
+   },
+   {
+    "break_type": "qty_diff",
+    "seeded": "qty_diff",
+    "n": 56
+   },
+   {
+    "break_type": "qty_diff",
+    "seeded": "resync_after_rejected_report",
+    "n": 105
+   },
+   {
+    "break_type": "side_diff",
+    "seeded": "side_diff",
+    "n": 56
+   },
+   {
+    "break_type": "symbol_diff",
+    "seeded": "symbol_diff",
+    "n": 48
+   }
+  ],
+  "fills_reconciled": 1775514
+ },
+ "tca": {
+  "n_orders": 5519,
+  "notional_usd": 36387644661.49821,
+  "is_bp": 14.148462394484767,
+  "is_delay_bp": 2.162818878478658,
+  "is_execution_bp": 10.600142842764807,
+  "is_opportunity_bp": 0.9045600031767373,
+  "is_fees_bp": 0.4809406700645665,
+  "execution_bp": 11.80041431224056,
+  "vwap_bp": 13.08819313185852,
+  "fill_rate": 0.8343120365466453,
+  "by_algo": {
+   "CLOSE": {
+    "n": 533,
+    "benchmark_bp": 8.145284273993898,
+    "execution_bp": 21.81002610064167,
+    "vwap_bp": 19.68261446107577,
+    "fill_rate": 0.9864347359398581
+   },
+   "IS": {
+    "n": 4442,
+    "benchmark_bp": 10.928122166653983,
+    "execution_bp": 10.928122166653983,
+    "vwap_bp": 11.544379290239595,
+    "fill_rate": 0.994725829882358
+   },
+   "POV": {
+    "n": 348,
+    "benchmark_bp": 25.98798498725959,
+    "execution_bp": 29.289954417321397,
+    "vwap_bp": 25.98798498725959,
+    "fill_rate": 0.4843877668712345
+   },
+   "VWAP": {
+    "n": 196,
+    "benchmark_bp": 8.146844077934535,
+    "execution_bp": -19.667266652985564,
+    "vwap_bp": 8.146844077934535,
+    "fill_rate": 0.973514802706365
+   }
+  },
+  "by_difficulty": {
+   "0": {
+    "n": 4229,
+    "execution_bp": 7.988567403727925,
+    "vwap_bp": 9.387134359462783,
+    "pretrade_bp": 6.2465472860853914
+   },
+   "1": {
+    "n": 942,
+    "execution_bp": 17.009031769272877,
+    "vwap_bp": 19.50751444150269,
+    "pretrade_bp": 15.17028492110143
+   },
+   "2": {
+    "n": 348,
+    "execution_bp": 29.289954417321397,
+    "vwap_bp": 25.98798498725959,
+    "pretrade_bp": 34.52883563784735
+   }
+  }
+ },
+ "wheel": {
+  "n": 1077,
+  "coefficients": {
+   "const": 7.436636234255945,
+   "impact": 0.47213637220220805,
+   "spread": -0.3549758173882741,
+   "urgent": 0.20465363188321836,
+   "algo_POV": -2.1651844470752075,
+   "algo_VWAP": 3.072781143243565,
+   "ex_XETR": -7.09634343665954,
+   "ex_XLON": -11.833566501929706,
+   "ex_XNYS": -9.270324220197795,
+   "ex_XPAR": -7.878706807696193,
+   "broker_BRK2": 2.4908340313748805,
+   "broker_BRK3": 6.395052461797536
+  },
+  "residual_sd_bp": 20.132537472523154,
+  "algos": [
+   "CLOSE",
+   "POV",
+   "VWAP"
+  ],
+  "benchmark": "benchmark_bp",
+  "brokers": {
+   "BRK1": {
+    "effect_bp_vs_BRK1": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p_best": 0.9925,
+    "n_orders": 379,
+    "raw_cost_bp": 13.550390413922518,
+    "by_algo_bp": {
+     "CLOSE": 6.159824048383503,
+     "POV": 20.93376506680671,
+     "VWAP": 8.57606730242184
+    }
+   },
+   "BRK2": {
+    "effect_bp_vs_BRK1": 2.4908340313748805,
+    "ci95": [
+     0.5392696909696805,
+     4.54667803740646
+    ],
+    "p_best": 0.0075,
+    "n_orders": 343,
+    "raw_cost_bp": 14.642018971181795,
+    "by_algo_bp": {
+     "CLOSE": 6.471578911851998,
+     "POV": 26.404250144383266,
+     "VWAP": 8.020326615153655
+    }
+   },
+   "BRK3": {
+    "effect_bp_vs_BRK1": 6.395052461797536,
+    "ci95": [
+     3.9801592977431537,
+     9.05319114633059
+    ],
+    "p_best": 0.0,
+    "n_orders": 355,
+    "raw_cost_bp": 18.875090190782192,
+    "by_algo_bp": {
+     "CLOSE": 11.315182019097422,
+     "POV": 32.45816973763123,
+     "VWAP": 7.80691965840554
+    }
+   }
+  },
+  "power": {
+   "0.5bp": 25422,
+   "1.0bp": 6356,
+   "2.0bp": 1589,
+   "5.0bp": 255
+  },
+  "ranking": [
+   "BRK1",
+   "BRK2",
+   "BRK3"
+  ],
+  "all_orders_vs_vwap": {
+   "n": 5519,
+   "residual_sd_bp": 48.514101780300564,
+   "brokers": {
+    "BRK1": {
+     "effect_bp_vs_BRK1": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p_best": 0.918,
+     "n_orders": 1857,
+     "raw_cost_bp": 10.379930394450076,
+     "by_algo_bp": {
+      "CLOSE": 27.682057567200804,
+      "IS": 7.842234156626229,
+      "POV": 20.93376506680671,
+      "VWAP": 8.57606730242184
+     }
+    },
+    "BRK2": {
+     "effect_bp_vs_BRK1": 3.3402902714819307,
+     "ci95": [
+      -1.5135858860391247,
+      7.806334247910941
+     ],
+     "p_best": 0.0735,
+     "n_orders": 1829,
+     "raw_cost_bp": 13.526319464175877,
+     "by_algo_bp": {
+      "CLOSE": 10.271042085069338,
+      "IS": 12.965431503466487,
+      "POV": 26.404250144383266,
+      "VWAP": 8.020326615153655
+     }
+    },
+    "BRK3": {
+     "effect_bp_vs_BRK1": 5.250942696229974,
+     "ci95": [
+      0.631367318859572,
+      9.832570661190022
+     ],
+     "p_best": 0.0085,
+     "n_orders": 1833,
+     "raw_cost_bp": 15.41030605083489,
+     "by_algo_bp": {
+      "CLOSE": 20.48894607856273,
+      "IS": 13.832183078849303,
+      "POV": 32.45816973763123,
+      "VWAP": 7.80691965840554
+     }
+    }
+   },
+   "power": {
+    "0.5bp": 147619,
+    "1.0bp": 36905,
+    "2.0bp": 9227,
+    "5.0bp": 1477
+   },
+   "ranking": [
+    "BRK1",
+    "BRK2",
+    "BRK3"
+   ]
+  }
+ },
+ "pretrade": {
+  "n_train": 686,
+  "n_test": 391,
+  "coefficients": {
+   "const_bp": 0.8025370507472526,
+   "impact": 0.5469247957882013,
+   "spread": -0.19310495771403038
+  },
+  "test_rmse_bp": 18.323728951410086,
+  "naive_rmse_bp": 20.374026782665574,
+  "test_corr": 0.44995768005577536,
+  "cut_date": "2026-08-21 00:00:00"
+ },
+ "checks": [
+  {
+   "phase": "EOD",
+   "check_name": "alerts",
+   "status": "ok",
+   "n": 28
+  },
+  {
+   "phase": "EOD",
+   "check_name": "alerts",
+   "status": "warn",
+   "n": 28
+  },
+  {
+   "phase": "EOD",
+   "check_name": "long_only_book",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "EOD",
+   "check_name": "open_orders",
+   "status": "fail",
+   "n": 27
+  },
+  {
+   "phase": "EOD",
+   "check_name": "open_orders",
+   "status": "ok",
+   "n": 29
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK1",
+   "status": "ok",
+   "n": 40
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK1",
+   "status": "warn",
+   "n": 16
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK2",
+   "status": "ok",
+   "n": 43
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK2",
+   "status": "warn",
+   "n": 13
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK3",
+   "status": "ok",
+   "n": 37
+  },
+  {
+   "phase": "EOD",
+   "check_name": "session:BRK3",
+   "status": "warn",
+   "n": 19
+  },
+  {
+   "phase": "EOD",
+   "check_name": "state_anomalies",
+   "status": "ok",
+   "n": 28
+  },
+  {
+   "phase": "EOD",
+   "check_name": "state_anomalies",
+   "status": "warn",
+   "n": 28
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XAMS",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XETR",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XLON",
+   "status": "ok",
+   "n": 55
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XLON",
+   "status": "warn",
+   "n": 1
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XNYS",
+   "status": "ok",
+   "n": 54
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XNYS",
+   "status": "warn",
+   "n": 2
+  },
+  {
+   "phase": "SOD",
+   "check_name": "calendar:XPAR",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "corporate_actions",
+   "status": "ok",
+   "n": 15
+  },
+  {
+   "phase": "SOD",
+   "check_name": "corporate_actions",
+   "status": "warn",
+   "n": 41
+  },
+  {
+   "phase": "SOD",
+   "check_name": "fix_sequence:BRK1",
+   "status": "ok",
+   "n": 55
+  },
+  {
+   "phase": "SOD",
+   "check_name": "fix_sequence:BRK2",
+   "status": "ok",
+   "n": 55
+  },
+  {
+   "phase": "SOD",
+   "check_name": "fix_sequence:BRK3",
+   "status": "ok",
+   "n": 55
+  },
+  {
+   "phase": "SOD",
+   "check_name": "futures_roll:ESU26",
+   "status": "ok",
+   "n": 53
+  },
+  {
+   "phase": "SOD",
+   "check_name": "futures_roll:ESU26",
+   "status": "warn",
+   "n": 3
+  },
+  {
+   "phase": "SOD",
+   "check_name": "futures_roll:ZNU26",
+   "status": "ok",
+   "n": 40
+  },
+  {
+   "phase": "SOD",
+   "check_name": "futures_roll:ZNU26",
+   "status": "warn",
+   "n": 3
+  },
+  {
+   "phase": "SOD",
+   "check_name": "futures_roll:ZNZ26",
+   "status": "ok",
+   "n": 13
+  },
+  {
+   "phase": "SOD",
+   "check_name": "order_sanity",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "position_limits",
+   "status": "warn",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "price_coverage",
+   "status": "ok",
+   "n": 54
+  },
+  {
+   "phase": "SOD",
+   "check_name": "price_coverage",
+   "status": "warn",
+   "n": 2
+  },
+  {
+   "phase": "SOD",
+   "check_name": "securities_master",
+   "status": "ok",
+   "n": 56
+  },
+  {
+   "phase": "SOD",
+   "check_name": "unexplained_jumps",
+   "status": "ok",
+   "n": 41
+  },
+  {
+   "phase": "SOD",
+   "check_name": "unexplained_jumps",
+   "status": "warn",
+   "n": 15
+  }
+ ],
+ "config": {
+  "aum": 2000000000.0,
+  "brokers": [
+   "BRK1",
+   "BRK2",
+   "BRK3"
+  ],
+  "max_pct_adv": 0.1,
+  "seed": 1
+ },
+ "runtime_s": 834.7399659156799
+}

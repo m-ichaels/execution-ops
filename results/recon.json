@@ -1,0 +1,128 @@
+{
+ "days": 56,
+ "seeded": 608,
+ "found": 608,
+ "unexplained": 0,
+ "by_type": {
+  "missing_at_pb": {
+   "seeded": 112,
+   "found": 112
+  },
+  "price_diff": {
+   "seeded": 112,
+   "found": 112
+  },
+  "qty_diff": {
+   "seeded": 56,
+   "found": 56
+  },
+  "side_diff": {
+   "seeded": 56,
+   "found": 56
+  },
+  "symbol_diff": {
+   "seeded": 48,
+   "found": 48
+  },
+  "late_booking": {
+   "seeded": 112,
+   "found": 112
+  },
+  "extra_at_pb": {
+   "seeded": 56,
+   "found": 56
+  },
+  "duplicate_at_pb": {
+   "seeded": 56,
+   "found": 56
+  }
+ },
+ "breaks_by_type_and_label": [
+  {
+   "break_type": "duplicate_at_pb",
+   "seeded": "duplicate_at_pb",
+   "n": 56
+  },
+  {
+   "break_type": "extra_at_pb",
+   "seeded": "extra_at_pb",
+   "n": 56
+  },
+  {
+   "break_type": "extra_at_pb",
+   "seeded": "late_booking_resolved",
+   "n": 110
+  },
+  {
+   "break_type": "missing_at_pb",
+   "seeded": "fault:dropcopy_missing",
+   "n": 52
+  },
+  {
+   "break_type": "missing_at_pb",
+   "seeded": "late_booking",
+   "n": 112
+  },
+  {
+   "break_type": "missing_at_pb",
+   "seeded": "missing_at_pb",
+   "n": 112
+  },
+  {
+   "break_type": "missing_in_dropcopy",
+   "seeded": "fault:dropcopy_missing",
+   "n": 52
+  },
+  {
+   "break_type": "missing_internal",
+   "seeded": "fault:late_fill_after_cancel",
+   "n": 27
+  },
+  {
+   "break_type": "missing_internal",
+   "seeded": "fault:overfill",
+   "n": 26
+  },
+  {
+   "break_type": "missing_internal",
+   "seeded": "fault:stale_leaves",
+   "n": 26
+  },
+  {
+   "break_type": "missing_internal",
+   "seeded": "fault:symbol_mismatch",
+   "n": 26
+  },
+  {
+   "break_type": "missing_internal",
+   "seeded": "fault:wrong_side",
+   "n": 27
+  },
+  {
+   "break_type": "price_diff",
+   "seeded": "price_diff",
+   "n": 112
+  },
+  {
+   "break_type": "qty_diff",
+   "seeded": "qty_diff",
+   "n": 56
+  },
+  {
+   "break_type": "qty_diff",
+   "seeded": "resync_after_rejected_report",
+   "n": 105
+  },
+  {
+   "break_type": "side_diff",
+   "seeded": "side_diff",
+   "n": 56
+  },
+  {
+   "break_type": "symbol_diff",
+   "seeded": "symbol_diff",
+   "n": 48
+  }
+ ],
+ "fills_reconciled": 1775514
+}
